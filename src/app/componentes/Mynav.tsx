@@ -9,7 +9,6 @@ import {
 import { useState } from "react";
 
 export default function Nav() {
-  const a = "juan";
   let [promo, setPromo] = useState(true);
   return (
     <div className=" fixed z-10 top-0 w-full">
